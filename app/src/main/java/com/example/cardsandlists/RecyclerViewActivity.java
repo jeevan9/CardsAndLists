@@ -51,7 +51,7 @@ public class RecyclerViewActivity extends Activity {
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter adapter = new RVAdapter(persons,this);
         rv.setAdapter(adapter);
     }
 }
